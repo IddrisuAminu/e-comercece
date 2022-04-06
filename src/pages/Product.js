@@ -7,11 +7,11 @@ const Product = () => {
     <div className="main-card">
       <div className="card">
       <div className="image">
-        <img src="./images/sm4.jfif" alt="image"/>
+        <img src="./images/m1.jfif" alt="image"/>
       </div>
       <div className="discription">
-        <p>mobile phone</p>
-        <p>Nokia</p>
+        <p>Cearal</p>
+        <p>maiz</p>
         <p>price:Ghc400.00</p>
         <input type="number" placeholder="enter the quantity" /><br/>
         <button>  Add cart</button>
@@ -20,11 +20,11 @@ const Product = () => {
 
     <div className="card">
       <div className="image">
-        <img src="./images/sm8.jfif" alt="image"/>
+        <img src="./images/bean.jfif" alt="image"/>
       </div>
       <div className="discription">
-        <p>mobile phone</p>
-        <p>Nokia</p>
+        <p>Cearal</p>
+        <p>Beanse</p>
         <p>price:Ghc400.00</p>
         <input type="number" placeholder="enter the quantity" /><br/>
         <button>Add cart</button>
@@ -33,11 +33,11 @@ const Product = () => {
 
     <div className="card">
       <div className="image">
-        <img src="./images/sm3.jfif" alt="image"/>
+        <img src="./images/okra.jfif" alt="image"/>
       </div>
       <div className="discription">
-        <p>mobile phone</p>
-        <p>Nokia</p>
+        <p>Vege</p>
+        <p>Okra</p>
         <p>price:Ghc400.00</p>
         <input type="number" placeholder="enter the quantity" /><br/>
         <button>Add cart</button>
@@ -46,11 +46,11 @@ const Product = () => {
 
     <div className="card">
       <div className="image">
-        <img src="./images/sm14.jfif" alt="image"/>
+        <img src="./images/soya.jfif" alt="image"/>
       </div>
       <div className="discription">
-        <p>mobile phone</p>
-        <p>Nokia</p>
+        <p>Cearal</p>
+        <p>Soyabean</p>
         <p>price:Ghc400.00</p>
         <input type="number" placeholder="enter the quantity" /><br/>
         <button>Add cart</button>
@@ -59,11 +59,11 @@ const Product = () => {
 
     <div className="card">
       <div className="image">
-        <img src="./images/sm15.jfif" alt="image"/>
+        <img src="./images/rice.jfif" alt="image"/>
       </div>
       <div className="discription">
-        <p>mobile phone</p>
-        <p>Nokia</p>
+        <p>Cearal</p>
+        <p>Rice</p>
         <p>price:Ghc400.00</p>
         <input type="number" placeholder="enter the quantity" /><br/>
         <button>Add cart</button>
@@ -73,11 +73,11 @@ const Product = () => {
 
     <div className="card">
       <div className="image">
-        <img src="./images/sm16.jfif" alt="image"/>
+        <img src="./images/wheit.jpg" alt="image"/>
       </div>
       <div className="discription">
         <p>mobile phone</p>
-        <p>Nokia</p>
+        <p>ceral</p>
         <p>price:Ghc400.00</p>
         <input type="number" placeholder="enter the quantity" /><br/>
         <button>Add cart</button>
@@ -86,11 +86,11 @@ const Product = () => {
     
     <div className="card">
       <div className="image">
-        <img src="./images/sm17.jfif" alt="image"/>
+        <img src="./images/gra.jfif" alt="image"/>
       </div>
       <div className="discription">
-        <p>mobile phone</p>
-        <p>Nokia</p>
+        <p>Groudnut</p>
+        <p>Cearal</p>
         <p>price:Ghc400.00</p>
         <input type="number" placeholder="enter the quantity" /><br/>
         <button>Add cart</button>
@@ -99,11 +99,11 @@ const Product = () => {
 
     <div className="card">
       <div className="image">
-        <img src="./images/sm18.jfif" alt="image"/>
+        <img src="./images/tomato.jfif" alt="image"/>
       </div>
       <div className="discription">
-        <p>mobile phone</p>
-        <p>Nokia</p>
+        <p>Tomato</p>
+        <p>Fruite</p>
         <p>price:Ghc400.00</p>
         <input type="number" placeholder="enter the quantity" /><br/>
         <button>Add cart</button>
@@ -111,11 +111,11 @@ const Product = () => {
     </div>
     <div className="card">
       <div className="image">
-        <img src="./images/sm19.jfif" alt="image"/>
+        <img src="./images/banana.jfif" alt="image"/>
       </div>
       <div className="discription">
-        <p>mobile phone</p>
-        <p>Nokia</p>
+        <p>banana</p>
+        <p>Fruite</p>
         <p>price:Ghc400.00</p>
         <input type="number" placeholder="enter the quantity" /><br/>
         <button>Add cart</button>
@@ -124,11 +124,11 @@ const Product = () => {
 
     <div className="card">
       <div className="image">
-        <img src="./images/sm20.jfif" alt="image"/>
+        <img src="./images/yam.jfif" alt="image"/>
       </div>
       <div className="discription">
-        <p>mobile phone</p>
-        <p>Nokia</p>
+        <p>Yam</p>
+        <p>Cearal crop</p>
         <p>price:Ghc400.00</p>
         <input type="number" placeholder="enter the quantity" /><br/>
         <button>Add cart</button>

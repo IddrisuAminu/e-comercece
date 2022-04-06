@@ -1,18 +1,22 @@
+*{
+  margin: 2px;
+}
 body {
   margin: 0;
-  
- /* background: url(aminu2.html) ;
+
+  /* background: url(aminu2.html) ;
   background-repeat: no-repeat;
   background-size: cover;  */
-
 }
-nav .logo img{
+nav .logo img {
+  margin-top: 20px;
   height: 100px;
-  width: 200px;
-
+  width: 100px;
+  border-radius: 20px;
+  margin-left: 10px;
 }
-nav{
-  background-color: rgb(110, 136, 158);
+nav {
+  background-color: rgb(5, 126, 15);
   display: flex;
   justify-content: space-between;
   height: 150px;
@@ -20,21 +24,23 @@ nav{
   position: sticky;
   top: 0;
   border-radius: 0 10px 0 10px;
+  border: 10px;
+  
 }
-nav .link  ul {
+nav .link ul {
   display: flex;
   list-style: none;
 }
-nav .link  ul  li{
-margin: 10px;
-text-decoration: none;
-}
-
-.hom{
+nav .link ul li {
+  margin: 10px;
   text-decoration: none;
 }
 
-button{ 
+.hom {
+  text-decoration: none;
+}
+
+button {
   margin: 10px;
   height: 50px;
   width: 100px;
@@ -48,7 +54,7 @@ button{
   border: solid green 10px;
 } */
 /* login styles */
-.login-container{
+.login-container {
   background-color: rgb(184, 206, 184);
   margin: 30%;
   height: 400px;
@@ -56,7 +62,7 @@ button{
   border: solid rgb(24, 17, 17) 4px;
   box-shadow: 0px 20px 20px 0px rgb(124, 114, 122);
 }
-.login-container form input{
+.login-container form input {
   height: 30px;
   width: 500px;
   margin: 5px;
@@ -65,13 +71,13 @@ button{
   border-radius: 10px;
 }
 /* product styles */
-header .available{
+header .available {
   border: 5px solid green;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-header .main-card .card{
+header .main-card .card {
   /* background-color: rgb(132, 112, 134); */
   width: 250px;
   margin: 10px;
@@ -87,76 +93,72 @@ header .main-card .card{
   box-shadow: rgb(119, 108, 108) 0px 10px 0px 0;
   border: solid rgb(31, 31, 105) 5px;
 } */
-header .main-card .card img{
+header .main-card .card img {
   height: 200px;
   width: 200px;
   border-radius: 20px;
-
 }
 header .main-card {
   background-color: white;
-  
+
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   border: solid red 5px;
 }
 /* 
 //payment compo */
-.main-payment{
+.main-payment {
   /* align-items: center;
   justify-content: center; */
 }
-.main-payment .payment{
- 
+.main-payment .payment {
   margin-left: 30%;
   margin-right: 30%;
-  box-shadow: black   0px 20px 10px 0;
-
+  box-shadow: black 0px 20px 10px 0;
 }
 
-.main-payment .all{
-border: green solid 5px;
-background-color: white;
-margin-top: 0;
+.main-payment .all {
+  border: green solid 5px;
+  background-color: white;
+  margin-top: 0;
 }
-.main-payment .payment-card{
+.main-payment .payment-card {
   background-color: rgb(97, 100, 97);
   border: solid yellow 5px;
-  
-  
+
   text-align: center;
   height: 300px;
-  
 }
-.main-payment .payment-card ul{
-  
-  
+.main-payment .payment-card ul {
   list-style: none;
   background-color: white;
   border: solid yellow 5px;
-  
 }
 /* Bank .payment-card */
-.col-lg-4{
+.col-lg-4 {
   background-color: rgb(45, 24, 231);
-margin-left: 500px;
-margin-right: 510px;
-
+  margin-left: 500px;
+  margin-right: 510px;
 }
-.col-lg-4 .big-bank{
-
- width: 500px;
- border: solid green 10px;
+.col-lg-4 .big-bank {
+  width: 500px;
+  border: solid green 10px;
 }
-.col-lg-4 .form-group{
+.col-lg-4 .form-group {
   background-color: rgb(74, 74, 138);
   width: 490px;
   border: solid red 5px;
-  
-  
 }
-.col-lg-4 .form-group input{
-height: 50px;
-width: 480px;
-text-align: center;
+.col-lg-4 .form-group input {
+  height: 50px;
+  width: 480px;
+  text-align: center;
+}
+.home1 img {
+  height: 400px;
+  width: 800px;
+}
+footer{
+  background-color: rgb(1, 16, 174);
+  height: 100px;
 }
